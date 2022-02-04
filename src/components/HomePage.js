@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from './Card';
-import CardText from './CardText';
+
 import ProgressBar from './ProgressBar';
 import image_posting from './images/undraw_posting_photo.svg'
 
@@ -75,7 +75,7 @@ const HomePage = () => {
                         </div>
                        
                         {/* cardtext start here */}
-                        <CardText />
+
                         {/* cardtext end here */}
                     </div>
                           
